@@ -1,4 +1,7 @@
-﻿int i1 = 5;
+﻿using System.Formats.Asn1;
+using System.Xml.XPath;
+
+int i1 = 5;
 int i2 = 6;
 int sum = i1 + i2;
 Console.WriteLine(sum); 
@@ -25,3 +28,14 @@ Console.WriteLine(quotient);
 d1 = 6;
 double quotient2 = i1/d1;
 Console.WriteLine(quotient2);
+
+//homework
+int a = 56;
+double b = -7.456;
+int c = 4;
+int d = 90009;
+double res = a * b/(c + d);
+Console.WriteLine(res);
+
+
+
